@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    height: 1100px  ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://www.teahub.io/photos/full/93-938757_75-web-website-background-color.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 500px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+nav{
+    text-align: right;
+    flex: 1;
+}
+
+nav ul li{
+     list-style: none;
+     display: inline-block;
+     margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    color: #fff;
+}
+
+.col{
+    flex-basis: ;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+
+.card{
+    width: 270px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0px 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.card1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/2280551/pexels-photo-2280551.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.card2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://www.vegcities.org/resources/images/Brixton_windmill_planting.jpg);
+}
+.card3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i2.wp.com/urbanagnews.com/wp-content/uploads/2017/09/producing-Safe-food.jpg?w=600&ssl=1);
+}
+.card4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://msourceideas.com/wp-content/uploads/2019/11/nrd-D6Tu_L3chLE-unsplash-300x225.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+
+}
+.card:hover{
+    box-shadow: 0 0 10px 5px white ;
+}
+
+a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.quick-links{
+    margin-top: 10px;
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+    position: center;
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 700px;
+    color:white;
+    background-color:black;
+
+}
+
+.best, .best1, .best2{
+    height: 150px;
+}
